@@ -5,7 +5,7 @@ var lib={};var ss={};var img={};
 lib.ssMetadata = [
 		{name:"RECUP_SISMO_atlas_1", frames: [[0,0,931,1104],[0,1106,912,845],[933,976,996,807],[933,0,1009,974]]},
 		{name:"RECUP_SISMO_atlas_2", frames: [[1095,774,876,692],[1110,1468,890,510],[858,0,874,772],[0,0,856,817],[0,819,1093,595],[0,1468,1108,490]]},
-		{name:"RECUP_SISMO_atlas_3", frames: [[569,361,46,30],[368,699,143,35],[368,736,143,35],[0,0,616,359],[569,486,314,545],[618,0,444,484],[0,919,401,105],[0,361,567,336],[0,699,366,218]]}
+		{name:"RECUP_SISMO_atlas_3", frames: [[1949,0,46,30],[1432,338,143,35],[364,361,143,35],[0,0,616,359],[1633,0,314,545],[0,361,362,125],[618,0,444,484],[364,486,401,105],[1064,0,567,336],[1064,338,366,218]]}
 ];
 
 
@@ -29,29 +29,15 @@ lib.ssMetadata = [
 
 
 
-(lib.CachedBmp_15 = function() {
-	this.initialize(ss["RECUP_SISMO_atlas_1"]);
-	this.gotoAndStop(0);
-}).prototype = p = new cjs.Sprite();
-
-
-
-(lib.CachedBmp_14 = function() {
-	this.initialize(ss["RECUP_SISMO_atlas_1"]);
-	this.gotoAndStop(1);
-}).prototype = p = new cjs.Sprite();
-
-
-
 (lib.CachedBmp_13 = function() {
-	this.initialize(ss["RECUP_SISMO_atlas_2"]);
+	this.initialize(ss["RECUP_SISMO_atlas_1"]);
 	this.gotoAndStop(0);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.CachedBmp_12 = function() {
-	this.initialize(ss["RECUP_SISMO_atlas_2"]);
+	this.initialize(ss["RECUP_SISMO_atlas_1"]);
 	this.gotoAndStop(1);
 }).prototype = p = new cjs.Sprite();
 
@@ -59,20 +45,20 @@ lib.ssMetadata = [
 
 (lib.CachedBmp_11 = function() {
 	this.initialize(ss["RECUP_SISMO_atlas_2"]);
-	this.gotoAndStop(2);
+	this.gotoAndStop(0);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.CachedBmp_10 = function() {
 	this.initialize(ss["RECUP_SISMO_atlas_2"]);
-	this.gotoAndStop(3);
+	this.gotoAndStop(1);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.CachedBmp_9 = function() {
-	this.initialize(ss["RECUP_SISMO_atlas_1"]);
+	this.initialize(ss["RECUP_SISMO_atlas_2"]);
 	this.gotoAndStop(2);
 }).prototype = p = new cjs.Sprite();
 
@@ -80,40 +66,54 @@ lib.ssMetadata = [
 
 (lib.CachedBmp_8 = function() {
 	this.initialize(ss["RECUP_SISMO_atlas_2"]);
-	this.gotoAndStop(4);
+	this.gotoAndStop(3);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.CachedBmp_7 = function() {
-	this.initialize(ss["RECUP_SISMO_atlas_3"]);
-	this.gotoAndStop(0);
+	this.initialize(ss["RECUP_SISMO_atlas_1"]);
+	this.gotoAndStop(2);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.CachedBmp_6 = function() {
 	this.initialize(ss["RECUP_SISMO_atlas_2"]);
-	this.gotoAndStop(5);
+	this.gotoAndStop(4);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.CachedBmp_5 = function() {
+	this.initialize(ss["RECUP_SISMO_atlas_3"]);
+	this.gotoAndStop(0);
+}).prototype = p = new cjs.Sprite();
+
+
+
+(lib.CachedBmp_4 = function() {
+	this.initialize(ss["RECUP_SISMO_atlas_2"]);
+	this.gotoAndStop(5);
+}).prototype = p = new cjs.Sprite();
+
+
+
+(lib.CachedBmp_3 = function() {
 	this.initialize(ss["RECUP_SISMO_atlas_1"]);
 	this.gotoAndStop(3);
 }).prototype = p = new cjs.Sprite();
 
 
 
-(lib.CachedBmp_4 = function() {
+(lib.CachedBmp_2 = function() {
 	this.initialize(ss["RECUP_SISMO_atlas_3"]);
 	this.gotoAndStop(1);
 }).prototype = p = new cjs.Sprite();
 
 
 
-(lib.CachedBmp_3 = function() {
+(lib.CachedBmp_1 = function() {
 	this.initialize(ss["RECUP_SISMO_atlas_3"]);
 	this.gotoAndStop(2);
 }).prototype = p = new cjs.Sprite();
@@ -134,30 +134,37 @@ lib.ssMetadata = [
 
 
 
-(lib.LOGOUNAMBA = function() {
+(lib.logo = function() {
 	this.initialize(ss["RECUP_SISMO_atlas_3"]);
 	this.gotoAndStop(5);
 }).prototype = p = new cjs.Sprite();
 
 
 
-(lib.Mapadebits10 = function() {
+(lib.LOGOUNAMBA = function() {
 	this.initialize(ss["RECUP_SISMO_atlas_3"]);
 	this.gotoAndStop(6);
 }).prototype = p = new cjs.Sprite();
 
 
 
-(lib.SISMO2 = function() {
+(lib.Mapadebits10 = function() {
 	this.initialize(ss["RECUP_SISMO_atlas_3"]);
 	this.gotoAndStop(7);
 }).prototype = p = new cjs.Sprite();
 
 
 
-(lib.SISMO234 = function() {
+(lib.SISMO2 = function() {
 	this.initialize(ss["RECUP_SISMO_atlas_3"]);
 	this.gotoAndStop(8);
+}).prototype = p = new cjs.Sprite();
+
+
+
+(lib.SISMO234 = function() {
+	this.initialize(ss["RECUP_SISMO_atlas_3"]);
+	this.gotoAndStop(9);
 }).prototype = p = new cjs.Sprite();
 
 
@@ -174,37 +181,37 @@ if (reversed == null) { reversed = false; }
 	cjs.MovieClip.apply(this,[props]);
 
 	// Layer_1
-	this.instance = new lib.CachedBmp_5();
+	this.instance = new lib.CachedBmp_3();
 	this.instance.setTransform(54.85,49.55,0.5,0.5);
 
-	this.instance_1 = new lib.CachedBmp_6();
+	this.instance_1 = new lib.CachedBmp_4();
 	this.instance_1.setTransform(9.8,300.15,0.5,0.5);
 
-	this.instance_2 = new lib.CachedBmp_8();
+	this.instance_2 = new lib.CachedBmp_6();
 	this.instance_2.setTransform(11.05,318.7,0.5,0.5);
 
-	this.instance_3 = new lib.CachedBmp_7();
+	this.instance_3 = new lib.CachedBmp_5();
 	this.instance_3.setTransform(149.8,423.3,0.5,0.5);
 
-	this.instance_4 = new lib.CachedBmp_9();
+	this.instance_4 = new lib.CachedBmp_7();
 	this.instance_4.setTransform(50.45,319.6,0.5,0.5);
 
-	this.instance_5 = new lib.CachedBmp_10();
+	this.instance_5 = new lib.CachedBmp_8();
 	this.instance_5.setTransform(103,319.6,0.5,0.5);
 
-	this.instance_6 = new lib.CachedBmp_11();
+	this.instance_6 = new lib.CachedBmp_9();
 	this.instance_6.setTransform(103,319.6,0.5,0.5);
 
-	this.instance_7 = new lib.CachedBmp_12();
+	this.instance_7 = new lib.CachedBmp_10();
 	this.instance_7.setTransform(103,318.25,0.5,0.5);
 
-	this.instance_8 = new lib.CachedBmp_13();
+	this.instance_8 = new lib.CachedBmp_11();
 	this.instance_8.setTransform(103,224.75,0.5,0.5);
 
-	this.instance_9 = new lib.CachedBmp_14();
+	this.instance_9 = new lib.CachedBmp_12();
 	this.instance_9.setTransform(103,135.6,0.5,0.5);
 
-	this.instance_10 = new lib.CachedBmp_15();
+	this.instance_10 = new lib.CachedBmp_13();
 	this.instance_10.setTransform(95.05,0,0.5,0.5);
 
 	this.timeline.addTween(cjs.Tween.get({}).to({state:[{t:this.instance}]}).to({state:[{t:this.instance_1}]},3).to({state:[{t:this.instance_3},{t:this.instance_2}]},3).to({state:[{t:this.instance_4}]},3).to({state:[{t:this.instance_5}]},3).to({state:[{t:this.instance_6}]},3).to({state:[{t:this.instance_7}]},3).to({state:[{t:this.instance_8}]},3).to({state:[{t:this.instance_9}]},3).to({state:[{t:this.instance_10}]},3).wait(3));
@@ -273,59 +280,65 @@ if (reversed == null) { reversed = false; }
 	props.reversed = reversed;
 	cjs.MovieClip.apply(this,[props]);
 
-	// LINEA_SISMO
-	this.instance = new lib.Interpolación4("synched",0);
-	this.instance.setTransform(27.4,150.9);
+	// Capa_1
+	this.instance = new lib.logo();
+	this.instance.setTransform(907,585,0.2486,0.1676);
 
-	this.timeline.addTween(cjs.Tween.get(this.instance).to({x:96.2},164).to({x:143.1},41).to({x:236.05},93).wait(1));
+	this.timeline.addTween(cjs.Tween.get(this.instance).wait(299));
+
+	// LINEA_SISMO
+	this.instance_1 = new lib.Interpolación4("synched",0);
+	this.instance_1.setTransform(27.4,150.9);
+
+	this.timeline.addTween(cjs.Tween.get(this.instance_1).to({x:96.2},164).to({x:143.1},41).to({x:236.05},93).wait(1));
 
 	// Macaw_Blue
-	this.instance_1 = new lib.MacawBlue("synched",0);
-	this.instance_1.setTransform(1055.8,360.35,0.145,0.1635,0,0,0,1942.7,-15.3);
+	this.instance_2 = new lib.MacawBlue("synched",0);
+	this.instance_2.setTransform(1055.8,360.35,0.145,0.1635,0,0,0,1942.7,-15.3);
 
-	this.timeline.addTween(cjs.Tween.get(this.instance_1).wait(299));
+	this.timeline.addTween(cjs.Tween.get(this.instance_2).wait(299));
 
 	// EDIFICIO
-	this.instance_2 = new lib.Interpolación2("synched",0);
-	this.instance_2.setTransform(487.1,401.5);
+	this.instance_3 = new lib.Interpolación2("synched",0);
+	this.instance_3.setTransform(487.1,401.5);
 
-	this.timeline.addTween(cjs.Tween.get(this.instance_2).to({x:500.4},14).to({scaleX:1.0004,skewY:-1.5549,x:487.1},16).to({scaleX:1,skewY:0,x:500.4},15).to({x:487.1},15).to({scaleY:1.0002,skewX:1.0315,x:500.4},15).to({scaleY:1,skewX:0,x:487.1},5).to({startPosition:0},3).to({x:500.4},14).to({x:487.1},16).to({x:500.4},15).to({x:487.1},15).to({x:499.5},14).to({x:500.4},1).to({x:487.1},6).to({scaleX:1.0045,skewY:-5.4165,x:516.05,y:397.8},5).to({scaleX:1.0066,skewY:6.5588,x:487.1,y:401.5},5).to({scaleX:1,skewY:0,x:510.25,y:398.55},6).to({x:487.1,y:401.5},4).to({startPosition:0},1).to({x:516.05,y:397.8},5).to({x:487.1,y:401.5},5).to({startPosition:0},1).to({x:516.05,y:397.8},4).to({x:487.1,y:401.5},5).to({scaleX:1.0002,skewY:-1.1661},1).to({scaleX:1,skewY:0,x:500.4},14).to({x:487.1},16).to({startPosition:0},1).to({x:500.4},14).to({x:487.1},16).to({scaleX:1.0002,skewY:-1.1547},1).to({scaleX:1,skewY:0,x:500.4},14).to({x:487.1},16).wait(1));
+	this.timeline.addTween(cjs.Tween.get(this.instance_3).to({x:500.4},14).to({scaleX:1.0004,skewY:-1.5549,x:487.1},16).to({scaleX:1,skewY:0,x:500.4},15).to({x:487.1},15).to({scaleY:1.0002,skewX:1.0315,x:500.4},15).to({scaleY:1,skewX:0,x:487.1},5).to({startPosition:0},3).to({x:500.4},14).to({x:487.1},16).to({x:500.4},15).to({x:487.1},15).to({x:499.5},14).to({x:500.4},1).to({x:487.1},6).to({scaleX:1.0045,skewY:-5.4165,x:516.05,y:397.8},5).to({scaleX:1.0066,skewY:6.5588,x:487.1,y:401.5},5).to({scaleX:1,skewY:0,x:510.25,y:398.55},6).to({x:487.1,y:401.5},4).to({startPosition:0},1).to({x:516.05,y:397.8},5).to({x:487.1,y:401.5},5).to({startPosition:0},1).to({x:516.05,y:397.8},4).to({x:487.1,y:401.5},5).to({scaleX:1.0002,skewY:-1.1661},1).to({scaleX:1,skewY:0,x:500.4},14).to({x:487.1},16).to({startPosition:0},1).to({x:500.4},14).to({x:487.1},16).to({scaleX:1.0002,skewY:-1.1547},1).to({scaleX:1,skewY:0,x:500.4},14).to({x:487.1},16).wait(1));
 
 	// DEFLEXION
-	this.instance_3 = new lib.CachedBmp_3();
-	this.instance_3.setTransform(793.85,240.15,0.5,0.5);
+	this.instance_4 = new lib.CachedBmp_1();
+	this.instance_4.setTransform(793.85,240.15,0.5,0.5);
 
-	this.instance_4 = new lib.SISMO2();
-	this.instance_4.setTransform(516,35,0.6932,0.5744);
+	this.instance_5 = new lib.SISMO2();
+	this.instance_5.setTransform(516,35,0.6932,0.5744);
 
-	this.instance_5 = new lib.CachedBmp_4();
-	this.instance_5.setTransform(793.85,240.15,0.5,0.5);
+	this.instance_6 = new lib.CachedBmp_2();
+	this.instance_6.setTransform(793.85,240.15,0.5,0.5);
 
-	this.timeline.addTween(cjs.Tween.get({}).to({state:[{t:this.instance_4},{t:this.instance_3}]}).to({state:[{t:this.instance_4},{t:this.instance_5}]},298).wait(1));
+	this.timeline.addTween(cjs.Tween.get({}).to({state:[{t:this.instance_5},{t:this.instance_4}]}).to({state:[{t:this.instance_5},{t:this.instance_6}]},298).wait(1));
 
 	// SISMOGRAFO
-	this.instance_6 = new lib.SISMO234();
-	this.instance_6.setTransform(0,80,0.703,0.7656);
-
-	this.timeline.addTween(cjs.Tween.get(this.instance_6).wait(299));
-
-	// LOGO_UNAMBA
-	this.instance_7 = new lib.LOGOUNAMBA();
-	this.instance_7.setTransform(749,458,0.3351,0.3351);
+	this.instance_7 = new lib.SISMO234();
+	this.instance_7.setTransform(0,80,0.703,0.7656);
 
 	this.timeline.addTween(cjs.Tween.get(this.instance_7).wait(299));
 
-	// VALORES
-	this.instance_8 = new lib.Mapadebits10();
-	this.instance_8.setTransform(623,620);
+	// LOGO_UNAMBA
+	this.instance_8 = new lib.LOGOUNAMBA();
+	this.instance_8.setTransform(749,458,0.3351,0.3351);
 
 	this.timeline.addTween(cjs.Tween.get(this.instance_8).wait(299));
 
-	// PLANO_PISO
-	this.instance_9 = new lib._8c59e65697cbeef05eb1e2496953478e();
-	this.instance_9.setTransform(187.45,-51.15,1.6262,2.3304,0,20.4808,20.1997);
+	// VALORES
+	this.instance_9 = new lib.Mapadebits10();
+	this.instance_9.setTransform(623,620);
 
 	this.timeline.addTween(cjs.Tween.get(this.instance_9).wait(299));
+
+	// PLANO_PISO
+	this.instance_10 = new lib._8c59e65697cbeef05eb1e2496953478e();
+	this.instance_10.setTransform(187.45,-51.15,1.6262,2.3304,0,20.4808,20.1997);
+
+	this.timeline.addTween(cjs.Tween.get(this.instance_10).wait(299));
 
 	this._renderFirstFrame();
 
@@ -340,9 +353,9 @@ lib.properties = {
 	color: "#FFFFFF",
 	opacity: 1.00,
 	manifest: [
-		{src:"images/RECUP_SISMO_atlas_1.png?1614443622851", id:"RECUP_SISMO_atlas_1"},
-		{src:"images/RECUP_SISMO_atlas_2.png?1614443622852", id:"RECUP_SISMO_atlas_2"},
-		{src:"images/RECUP_SISMO_atlas_3.png?1614443622852", id:"RECUP_SISMO_atlas_3"}
+		{src:"images/RECUP_SISMO_atlas_1.png?1614451446829", id:"RECUP_SISMO_atlas_1"},
+		{src:"images/RECUP_SISMO_atlas_2.png?1614451446830", id:"RECUP_SISMO_atlas_2"},
+		{src:"images/RECUP_SISMO_atlas_3.png?1614451446830", id:"RECUP_SISMO_atlas_3"}
 	],
 	preloads: []
 };
